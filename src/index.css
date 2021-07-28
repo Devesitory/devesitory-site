@@ -16,7 +16,6 @@ body {
 h1 {
   font-size: 3em;
   font-weight: 300;
-  opacity: 50%;
 }
 
 a,
@@ -24,7 +23,6 @@ p {
   color: white;
   font-weight: 300;
   text-decoration: none;
-  opacity: 0.75;
   line-height: 1.5em;
 }
 

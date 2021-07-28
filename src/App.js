@@ -12,7 +12,6 @@ const App = () => {
             justifyContent: "center",
             gap: "1em",
             marginTop: "1.5em",
-            opacity: 0.75,
           }}
         >
           <Link to="/">Home</Link>
