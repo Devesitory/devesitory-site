@@ -6,25 +6,36 @@ const App = () => {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-          </ul>
-        </nav>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: "1em",
+            marginTop: "1.5em",
+            opacity: 0.75,
+          }}
+        >
+          <Link to="/">Home</Link>
+          <span
+            style={{
+              fontWeight: 200,
+            }}
+          >
+            —
+          </span>
+          <Link to="/about">About</Link>
+        </div>
 
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <div className="center-me">
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
       </div>
     </Router>
   );

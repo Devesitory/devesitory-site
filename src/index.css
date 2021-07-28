@@ -1,0 +1,33 @@
+html,
+body {
+  background-color: #2d404d;
+  color: white;
+  font-family: sans-serif;
+}
+
+.center-me {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 300;
+  opacity: 50%;
+}
+
+a,
+p {
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  opacity: 0.75;
+  line-height: 1.5em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
